@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#btn_user{
+  width: 300px;
+  height: 60px;
+  color:#fff;
+  margin-top: 300px;
+  margin-left: 150px;
+  font-size: 24px;
+  border-radius: 50px;
+  font-weight: bold;
+  background: forestgreen;
+  border-color: green 
+}
+
+#btn_vender{
+  width: 300px;
+  height: 60px;
+  color:#fff;
+  margin-top: 300px;
+  margin-right: 200px;
+  font-size: 24px;
+  border-radius: 50px;
+  font-weight: bold;
+  background: #14629D;
+  background: forestgreen;
+  border-color: green 
+}
+
+#pointer{
+  cursor: pointer;
+  color: blue;
+}
+
+.cardsDeck{
+
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card1{
+
+  width: 25rem;
+  border-radius: 15px;
+  height: 25rem;
+}
+
+.image{
+
+  width: 100%;
+  height: 50%;
+}
+
+
+.buttonEvent{
+  margin-top: 2%;
+  margin-left: 40%;
+}
