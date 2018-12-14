@@ -44,7 +44,7 @@ class VendorSignUp extends Component {
             })
             .then(() =>{
                 swal("Registration Successful", "", "success");
-                this.props.history.push("/vendor/eventform");
+                this.props.history.push("/Dashboard");
             })
             .catch(function(error) {
               swal(error.message, "", "error");
@@ -57,7 +57,7 @@ class VendorSignUp extends Component {
   }
 
   signIn(){
-      this.props.history.push("/Dashboard");
+      this.props.history.push("/Vendor/SignIn");
   }
 
   render() {

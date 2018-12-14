@@ -32,10 +32,9 @@ class Dashboard extends Component {
                 }));
             })
         })
-
     }
 
-    postevents=()=>{
+    postevents = () => {
         this.props.history.push("/vendor/eventform");
 
     }
@@ -43,10 +42,8 @@ class Dashboard extends Component {
     render() {
         const events = this.state.events
         return (
-            <div>
-                <Button color="info" size="lg" onClick={this.postevents} className='buttonEvent'>Post Events</Button>{' '}
                 <div className='cardsDeck'>
-                    {this.state.events.map((data, i) => {
+                    {events.map((data, i) => {
                         return <Card className='card1'>
                             <CardImg src={data.image} alt="Card image cap" className='image' />
                             <CardBody>
@@ -60,7 +57,6 @@ class Dashboard extends Component {
 
 
 
-                </div>
             </div>
         );
     }

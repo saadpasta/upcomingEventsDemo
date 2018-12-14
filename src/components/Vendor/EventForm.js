@@ -68,7 +68,7 @@ class EventForm extends Component {
       })
       .then(() =>{
           swal("Event Registerd Successful", "", "success");
-          this.props.history.push("/Dasboard");
+          this.props.history.push("/Dashboard");
 
       })
       .catch(function(error) {
